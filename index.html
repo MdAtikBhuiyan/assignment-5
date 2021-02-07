@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cooking Master </title>
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Cooking Master</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Recipes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- main content -->
+
+    <main>
+        <section class="container">
+            <!-- search section -->
+            <section class="input-form">
+                <form class="input-group mb-3">
+                    <input id="input-food" type="text" class="form-control" placeholder="Search for Meal"
+                        aria-describedby="button-addon2">
+                    <button id="search-btn" class="btn" type="button"
+                        id="button-addon2">Search</button>
+                </form>
+            </section>
+
+            <!-- single food details -->
+            <section id="single-item-details">
+               
+            </section>
+
+
+            <!-- all foods -->
+            <section>
+                <div id="food-items">
+
+
+                </div>
+            </section>
+
+
+        </section>
+    </main>
+
+
+
+    <!-- js link -->
+    <script src="main.js"></script>
+</body>
+
+</html>
